@@ -92,7 +92,7 @@ main {
 .project-name {
   font-family: "Fjalla One";
   color: var(--cg-blue);
-  font-size: larger;
+  font-size: 20px;
 }
 
 /* CSS for resume page */
@@ -123,7 +123,15 @@ main {
 .course-list {
   font-family: "Libre Baskville";
 }
-.section_title,
+
+.section h2 {
+  font-family: "Fjalla One";
+  color: var(--cg-blue);
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: -5px;
+}
+
 .entry-title {
   font-family: "Fjalla One";
 }
