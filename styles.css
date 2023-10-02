@@ -1,7 +1,7 @@
 :root {
   /* variables */
   --cg-purple: rgb(71, 49, 152);
-  --cg-blue: rgb(122, 147, 172);
+  --cg-blue: rgb(4, 150, 255);
 }
 
 html {
@@ -69,6 +69,10 @@ main {
   margin: 0 12px;
   text-decoration: none;
   letter-spacing: 2px;
+}
+
+.nav-button:hover {
+  color: var(--cg-blue);
 }
 
 /* CSS for resume page */
