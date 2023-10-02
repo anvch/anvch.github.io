@@ -166,6 +166,16 @@ textarea {
   resize: none;
 }
 
+input[type="submit"] {
+  font-family: "Fjalla One";
+  font-size: 15px;
+  padding: 5px 15px;
+  background: var(--cg-purple);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /* Add some spacing to the form */
 form {
   width: 500px;
