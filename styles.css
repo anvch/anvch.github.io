@@ -1,3 +1,9 @@
+:root {
+  /* variables */
+  --cg-purple: rgb(71, 49, 152);
+  --cg-blue: rgb(122, 147, 172);
+}
+
 html {
   height: 100%;
 }
@@ -5,10 +11,16 @@ html {
 body {
   font-family: "Fjalla One";
   background-color: white;
+  padding-top: 10 px;
   position: relative;
   min-height: 100vh;
   padding: 0;
   margin: 0;
+}
+
+body main h1,
+.section {
+  font-family: "Fjalla One";
 }
 
 main {
@@ -35,7 +47,7 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: rgb(71, 49, 152);
+  background-color: var(--cg-purple);
   color: white;
   padding: 0px 0px;
 
@@ -59,13 +71,46 @@ main {
   letter-spacing: 2px;
 }
 
+/* CSS for resume page */
+
+.button {
+  background-color: var(--cg-purple);
+  border: solid;
+  color: white;
+
+  font-family: Fjalla One;
+
+  padding: 7px 10px;
+  text-align: center;
+
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color: var(--cg-blue);
+}
+
+.resume {
+  padding-inline-start: 25%;
+  padding-inline-end: 25%;
+}
+.entry,
+.skill-list,
+.course-list {
+  font-family: "Libre Baskville";
+}
+.section_title,
+.entry-title {
+  font-family: "Fjalla One";
+}
+
 /* CSS for page footer */
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(71, 49, 152);
+  background-color: var(--cg-purple);
   color: white;
   position: absolute;
   bottom: 0;
