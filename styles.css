@@ -88,6 +88,13 @@ main {
   border-radius: 5px;
 }
 
+/* CSS for portfolio page */
+.project-name {
+  font-family: "Fjalla One";
+  color: var(--cg-blue);
+  font-size: larger;
+}
+
 /* CSS for resume page */
 
 .button {
