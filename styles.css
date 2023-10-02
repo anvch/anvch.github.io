@@ -75,6 +75,19 @@ main {
   color: var(--cg-blue);
 }
 
+/* CSS for home page */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding: 40px;
+  background-color: rgb(220, 240, 255);
+  border: 1px solid var(--cg-blue);
+  border-radius: 5px;
+}
+
 /* CSS for resume page */
 
 .button {
